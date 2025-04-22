@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+}
+
+.control-sidebar-left {
+    left: 0 !important;
+    right: auto !important;
+}
+
+.input-group-reverse {
+    flex-direction: row-reverse;
+}
+
+@media (min-width: 768px) {
+
+    .sidebar-mini.sidebar-collapse .form-control-sidebar,
+    .sidebar-mini.sidebar-collapse .form-control-sidebar~.input-group-append,
+    .sidebar-mini.sidebar-collapse .form-control-sidebar~.input-group-prepend,
+    .sidebar-mini.sidebar-collapse .sidebar-search-results {
+        display: none;
+    }
+}
